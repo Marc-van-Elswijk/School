@@ -1,0 +1,20 @@
+.Roleplay-Informatie {
+    border: none; 
+    background-color: royalblue;
+    color: whitesmoke; 
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Willem-van-der-Decken {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+h1 {
+    color: darkblue; 
+}
+p {
+    color: darkred; 
+}
