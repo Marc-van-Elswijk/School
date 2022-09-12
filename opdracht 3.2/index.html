@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUI website | Opdrachte 3.2</title>
+</head>
+<body>
+    <h1>Uw gegevens voor de geplande reis:</h1>
+    <form name="reactieformulier" method="get" action="controlebasis.html">
+        <fieldset>
+            <legend>Persoonlijke gegevens</legend>
+            <label>voornaam</label>
+            <br>
+            <input type="text" name="Voornaam" placeholder="Voornaam">
+            <br>
+            <label>Achternaam</label>
+            <br>
+            <input type="text" name="Achternaam" placeholder="Achternaam">
+            <br>
+            <label>Geslacht</label>
+            <br>
+            <label for="vrouw">Vrouw:</label>
+            <input type="radio" id="vrouw" name="geslacht">
+            <br>
+            <label for="man">Man:</label>
+            <input type="radio" id="man" name="geslacht">
+            <br>
+            <label for="anders">Anders:</label>
+            <input type="radio" id="anders" name="geslacht">
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Informatie voor uw boeking</legend>
+            <label> met hoeveel personen wilt u op vakantie gaan?</label>
+            <input type="number" min="1" max="4">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Uw account</legend>
+            <label>Email</label>
+            <br>
+            <input type="e-mail" name="Email" placeholder="Email">
+            <br>
+            <label>wachtwoord</label>
+            <br>
+            <input type="password" name="Wachtwoord" placeholder="Wachtwoord">
+        </fieldset>
+        <p>door op de knop hieronder te klikken gaat u akkoord met de algemene voorwaarden</p>
+        <input type="submit" name="submit" value="Boek nu">
+    </form>
+</body>
+</html>
