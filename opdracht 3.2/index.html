@@ -35,11 +35,28 @@
             <input type="text" name="Straat" placeholder="straat" required>
             <input type="number" name="huisnummer" placeholder="Huisnummer" required>
             <input type="text" name="Toevoeging" placeholder="Toevoeging" required>
+            <br>
+            <label>Postcode</label>
+            <br>
+            <input type="text" name="Postcode" placeholder="Postcode" required>
         </fieldset>
         <br>
         <fieldset>
             <legend>Informatie voor uw boeking</legend>
-            <label></label>
+            <label for="Vakantieland">Selecteer uw Vakantieland</label>
+            <select name="Vakantieland" id="Vakantieland" required>
+                <option value="Keuze">Kies uw vakantieland</option>
+                <option value="Italië">Italië</option>
+                <option value="Zwitserland">Zwitserland</option>
+                <option value="Spanje">Spanje</option>
+            </select>
+            <br>
+            <label for="Datum1">Datum van vertrek</label>
+            <input type="date" name="Datum1" min="2022-09-13">
+            <br>
+            <label for="Datum2">Datum van terugkomst</label>
+            <input type="date" name="Datum2" min="2022-09-13">
+            <br>
             <label> met hoeveel personen wilt u op vakantie gaan?</label>
             <input type="number" min="1" max="4" required>
         </fieldset>
