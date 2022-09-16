@@ -13,11 +13,11 @@
             <legend>Persoonlijke gegevens</legend>
             <label>voornaam</label>
             <br>
-            <input type="text" name="Voornaam" placeholder="Voornaam" required>
+            <input type="text" name="Voornaam" placeholder="Voornaam" pattern="[^0-9]*" required>
             <br>
             <label>Achternaam</label>
             <br>
-            <input type="text" name="Achternaam" placeholder="Achternaam" required>
+            <input type="text" name="Achternaam" placeholder="Achternaam" pattern="[^0-9]*" required>
             <br>
             <label>Geslacht</label>
             <br>
@@ -32,13 +32,25 @@
             <br>
             <label>straat met huisnummer</label>
             <br>
-            <input type="text" name="Straat" placeholder="straat" required>
+            <input type="text" name="Straat" placeholder="straat" pattern="[^0-9]*" required>
             <input type="number" name="huisnummer" placeholder="Huisnummer" required>
-            <input type="text" name="Toevoeging" placeholder="Toevoeging" required>
+            <input type="text" name="Toevoeging" placeholder="Toevoeging" pattern="[^0-9]*" required>
             <br>
             <label>Postcode</label>
             <br>
             <input type="text" name="Postcode" placeholder="Postcode" required>
+            <br>
+            <label>Stad</label>
+            <br>
+            <input type="text" name="Stad" placeholder="Stad" pattern="[^0-9]*" required>
+            <br>
+            <label>Land</label>
+            <br>
+            <input type="text" name="Land" placeholder="Land" pattern="[^0-9]*" required>
+            <br>
+            <label>BSN-nummer</label>
+            <br>
+            <input type="text" name="BSN-nummer" placeholder="BSN-nummer" pattern="[0-9]*" maxlength="9" required>
         </fieldset>
         <br>
         <fieldset>
