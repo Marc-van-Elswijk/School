@@ -12,79 +12,79 @@
         <fieldset>
             <legend>Persoonlijke gegevens</legend>
             <label>voornaam</label>
-            <br>
-            <input type="text" name="Voornaam" placeholder="Voornaam" pattern="[^0-9]*" required>
-            <br>
+            
+            <input type="text" name="voornaam" placeholder="voornaam" pattern="[^0-9]*" required>
+            
             <label>Achternaam</label>
-            <br>
-            <input type="text" name="Achternaam" placeholder="Achternaam" pattern="[^0-9]*" required>
-            <br>
+            
+            <input type="text" name="achternaam" placeholder="achternaam" pattern="[^0-9]*" required>
+            
             <label>Geslacht</label>
-            <br>
+            
             <label for="vrouw">Vrouw:</label>
             <input type="radio" id="vrouw" name="geslacht" required>
-            <br>
+            
             <label for="man">Man:</label>
             <input type="radio" id="man" name="geslacht" required>
-            <br>
+            
             <label for="anders">Anders:</label>
             <input type="radio" id="anders" name="geslacht" required>
-            <br>
+            
             <label>straat met huisnummer</label>
-            <br>
-            <input type="text" name="Straat" placeholder="straat" pattern="[^0-9]*" required>
-            <input type="number" name="huisnummer" placeholder="Huisnummer" required>
-            <input type="text" name="Toevoeging" placeholder="Toevoeging" pattern="[^0-9]*" required>
-            <br>
+            
+            <input type="text" name="straat" placeholder="straat" pattern="[^0-9]*" required>
+            <input type="number" name="huisnummer" placeholder="huisnummer" required>
+            <input type="text" name="toevoeging" placeholder="toevoeging" pattern="[^0-9]*" required>
+            
             <label>Postcode</label>
-            <br>
-            <input type="text" name="Postcode" placeholder="Postcode" required>
-            <br>
+            
+            <input type="text" name="postcode" placeholder="postcode" required>
+            
             <label>Stad</label>
-            <br>
-            <input type="text" name="Stad" placeholder="Stad" pattern="[^0-9]*" required>
-            <br>
+            
+            <input type="text" name="stad" placeholder="stad" pattern="[^0-9]*" required>
+            
             <label>Land</label>
-            <br>
-            <input type="text" name="Land" placeholder="Land" pattern="[^0-9]*" required>
-            <br>
+            
+            <input type="text" name="land" placeholder="land" pattern="[^0-9]*" required>
+            
             <label>BSN-nummer</label>
-            <br>
-            <input type="text" name="BSN-nummer" placeholder="BSN-nummer" pattern="[0-9]*" maxlength="9" required>
+            
+            <input type="text" name="bsn-nummer" placeholder="bsn-nummer" pattern="[0-9]*" maxlength="9" required>
         </fieldset>
-        <br>
+        
         <fieldset>
             <legend>Informatie voor uw boeking</legend>
             <label for="Vakantieland">Selecteer uw Vakantieland</label>
-            <select name="Vakantieland" id="Vakantieland" required>
-                <option value="Keuze">Kies uw vakantieland</option>
-                <option value="Italië">Italië</option>
-                <option value="Zwitserland">Zwitserland</option>
-                <option value="Spanje">Spanje</option>
+            <select name="vakantieland" id="vakantieland" required>
+                <option value="keuze">Kies uw vakantieland</option>
+                <option value="italië">Italië</option>
+                <option value="zwitserland">Zwitserland</option>
+                <option value="spanje">Spanje</option>
             </select>
-            <br>
-            <label for="Datum1">Datum van vertrek</label>
-            <input type="date" name="Datum1" min="2022-09-13">
-            <br>
-            <label for="Datum2">Datum van terugkomst</label>
-            <input type="date" name="Datum2" min="2022-09-13">
-            <br>
+            
+            <label for="datum1">Datum van vertrek</label>
+            <input type="date" name="datum1" min="2022-09-13">
+            
+            <label for="datum2">Datum van terugkomst</label>
+            <input type="date" name="datum2" min="2022-09-13">
+            
             <label> met hoeveel personen wilt u op vakantie gaan?</label>
             <input type="number" min="1" max="4" required>
         </fieldset>
-        <br>
+        
         <fieldset>
             <legend>Uw account</legend>
             <label>Email</label>
-            <br>
-            <input type="e-mail" name="Email" placeholder="Email" required>
-            <br>
+            
+            <input type="e-mail" name="email" placeholder="email" required>
+            
             <label>wachtwoord</label>
-            <br>
-            <input type="password" name="Wachtwoord" placeholder="Wachtwoord" required>
+            
+            <input type="password" name="wachtwoord" placeholder="wachtwoord" required>
         </fieldset>
         <p>door op de knop hieronder te klikken gaat u akkoord met de algemene voorwaarden</p>
-        <input type="submit" name="submit" value="Boek nu">
+        <input type="submit" name="submit" value="boek nu">
     </form>
 </body>
 </html>
