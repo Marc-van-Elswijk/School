@@ -1,8 +1,18 @@
+html {
+    font-size: 62.5%;
+}
+
 h1 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     font-style: italic;
-    color: blue; 
+    color: yellow; 
+}
+
+.PHeader {
+    color: white; 
+    font-family: Arial; 
+    font-size: 20px;
 }
 
 h2 {
@@ -19,6 +29,8 @@ h3 {
 
 p {
     color:#4D4D4D; 
+    font-family: Arial;
+    font-size: 1rem;
 }
 
 .p1 {
@@ -28,4 +40,44 @@ p {
 a {
     color: #8A2BE2;
     text-decoration: none;
+}
+
+img {
+    width: 85rem;
+}
+
+header {
+    width: 134rem;
+    height:45rem;
+    background-image: url(./img/splatoon\ 3\ header\ background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+article {
+    border-style: solid;
+    border-width: 0.3rem;
+    border-radius: 1rem;
+    border-left-width: 0.6rem;
+}
+
+.Last {
+    border-color: rgb(255, 253, 132)
+}
+
+.Steelrising {
+    border-color:rgb(235, 229, 229)
+}
+
+.Splatoon {
+    border-color: rgb(164, 204, 54)
+}
+
+.Diofield {
+    border-color: rgb(92, 92, 92);
+}
+
+.Valkyrie {
+    border-color: rgb(109, 109, 247);
 }
