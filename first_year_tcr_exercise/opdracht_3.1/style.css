@@ -3,11 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+h2 {
+  font-weight: bolder;
+}
+
 html {
   font-size: 62.5%;
 }
 body {
   font-family: "Goldman", cursive;
+  color: white;
+  background-image: url(./img/clint-patterson-dYEuFB8KQJk-unsplash-1160x670.jpg);
+  background-repeat: no-repeat;
+  background-size: 145rem 75rem;
+  background-color: black;
+}
+
+section {
+  height: 65rem;
+  width: 125rem;
+  font-size: medium;
 }
 
 nav {
@@ -20,6 +36,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
 }
 nav ul {
   display: flex;
@@ -36,4 +53,9 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+footer {
+  height: 10rem;
+  background: #00a8c7;
 }
