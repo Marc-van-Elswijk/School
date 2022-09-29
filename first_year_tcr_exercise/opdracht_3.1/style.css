@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 h2 {
   font-weight: bolder;
 }
 
-html {
-  font-size: 62.5%;
-}
 body {
   font-family: "Goldman", cursive;
   color: white;
@@ -18,12 +19,19 @@ body {
   background-repeat: no-repeat;
   background-size: 145rem 75rem;
   background-color: black;
+  position: absolute;
+  height: 100vh;
 }
 
 section {
   height: 65rem;
-  width: 125rem;
+  width: 115rem;
   font-size: medium;
+}
+
+.fix {
+ position: relative;
+  top: 30rem;
 }
 
 nav {
@@ -37,6 +45,7 @@ nav {
   background: #00a8c7;
   justify-content: space-between;
   position: fixed;
+  z-index: 1;
 }
 nav ul {
   display: flex;
@@ -56,6 +65,12 @@ nav img {
 }
 
 footer {
-  height: 10rem;
+  height: 12vh;
+  width: 215.9vh;
   background: #00a8c7;
+}
+
+h3 {
+  text-align: center;
+  padding: 3.5vh 3.5vh;
 }
