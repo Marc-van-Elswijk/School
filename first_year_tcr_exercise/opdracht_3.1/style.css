@@ -8,8 +8,15 @@ html {
   font-size: 62.5%;
 }
 
-h2 {
+h1 {
+  text-align: center;
   font-weight: bolder;
+}
+
+h2 {
+  margin: 10vh;
+  font-weight: bold;
+  text-align: center;
 }
 
 body {
@@ -70,4 +77,29 @@ footer {
   background: #00a8c7;
   text-align: center;
   padding: 3.5vh 3.5vh;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 20vw;
+  z-index: 1;
+  box-shadow: 0rem 0.5rem 1rem 0rem #E9E9E9;
+}
+
+.dropdown-content a {
+  color: #00a8c7;
+  padding: 0.8rem 1rem;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  column-rule-color: #00a8c7;
+}
+
+.dropdown-content:hover {
+  background-color: #E9E9E9;
 }
