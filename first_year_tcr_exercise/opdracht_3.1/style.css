@@ -100,6 +100,14 @@ footer {
   column-rule-color: #00a8c7;
 }
 
-.dropdown-content:hover {
+.item1:hover {
+  background-color: #E9E9E9;
+} 
+
+.item2:hover {
+  background-color: #E9E9E9;
+} 
+
+.item3:hover {
   background-color: #E9E9E9;
 } 
