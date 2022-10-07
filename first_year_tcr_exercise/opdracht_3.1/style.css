@@ -79,6 +79,17 @@ footer {
   padding: 3.5vh 3.5vh;
 }
 
+div {
+  display: flex;
+}
+
+.omgekeerd {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+}
+
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -110,4 +121,4 @@ footer {
 
 .item3:hover {
   background-color: #E9E9E9;
-} 
+}
