@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #131c27;
+    color: white;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+    margin: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8rem 1rem;
+}
