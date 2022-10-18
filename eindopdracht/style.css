@@ -12,12 +12,13 @@ nav {
 ul {
   list-style-type: none;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 li {
     margin: 10px;
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 li a {
