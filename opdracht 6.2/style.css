@@ -5,7 +5,6 @@
 }
 
 .flex-container {
-    display: flex;
     width: 100vw;
 }
 
@@ -13,26 +12,27 @@
     height: 200px;
     width: 200px;
     background: blue;
-    margin: 50px;
 }
 
 .item2 {
     height: 200px;
     width: 200px;
     background: black;
-    margin: 50px;
 }
 
 .item3 {
     height: 200px;
     width: 200px;
     background: red;
-    margin: 50px;
 }
 
 .item4 {
     height: 200px;
     width: 200px;
     background: green;
-    margin: 50px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
 }

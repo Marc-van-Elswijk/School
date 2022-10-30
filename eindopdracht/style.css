@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 nav {
     background-color: #131c27;
     color: white;
+    font-family: 'Pattaya', sans-serif;
 }
 
 ul {
@@ -26,4 +31,56 @@ li a {
     text-decoration: none;
     text-align: center;
     padding: 0.8rem 1rem;
+}
+
+section {
+    font-family: 'Poppins', sans-serif;
+}
+
+.stuk1 {
+    background-image: url(./img/landing-page.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.stuk1 h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 285px;
+}
+
+.stuk1 p {
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+}
+
+.stuk1 button {
+    font-size: larger;
+    color: white;
+    background-color: #4c6e97;
+    border: none;
+}
+
+.stuk2 {
+    background-image: url(./img/new-york-page.png);
+}
+
+.stuk3 {
+    background-color: #131c27;
+    color: white;
+}
+
+.stuk3 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.stuk3 p {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    background-image: url(./img/contact-mountain.png);
 }
